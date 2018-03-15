@@ -6,7 +6,7 @@
 
     <groupId>cms.sre</groupId>
     <artifactId>spring-parent-pom</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -27,7 +27,7 @@
         <repository>
             <id>bintray-ic-cms-Maven</id>
             <name>ic-cms-Maven</name>
-            <url>https://api.bintray.com/maven/${bintray.repo}/Maven/${bintray.package}/;publish=1</url>
+            <url>https://api.bintray.com/maven/ic-cms/Maven/spring-parent-pom/;publish=1</url>
         </repository>
     </distributionManagement>
     <dependencies>
