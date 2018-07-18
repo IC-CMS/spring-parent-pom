@@ -42,11 +42,6 @@
             <artifactId>logback-classic</artifactId>
             <version>${logback.version}</version>
         </dependency>
-        <!-- Spring Dependencies -->
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-mongodb</artifactId>
-        </dependency>
         <!-- Testing Dependencies -->
         <dependency>
             <groupId>junit</groupId>
